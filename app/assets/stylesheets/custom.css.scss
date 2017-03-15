@@ -25,6 +25,7 @@
 	background-image: asset-url('cover4.jpg');
 	background-attachment: fixed;
 	height: 720px;
+	background-size: 100%;
 }
 
 .jumbotron h1 {
@@ -43,8 +44,10 @@
 .footer{
 	margin-bottom: 45px;
 	padding-top: 5px;
-	
+	margin-top: 40px;
+	border-top: 1px solid #90C3D4;
 	color: #777;
+	padding-top: 40;
 }
 
 .footer a:hover{
@@ -58,6 +61,12 @@
 .footer ul {
 	float: right;
 	list-style: none;
+}
+
+#custom_h1{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 
