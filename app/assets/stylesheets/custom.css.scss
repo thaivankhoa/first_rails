@@ -22,16 +22,15 @@
 }
 
 .jumbotron {
-	background-image: asset-url('cover4.jpg');
-	background-attachment: fixed;
-	height: 720px;
+	background-image: asset-url('cover4.jpg'); 	
+	height: 620px;
 	background-size: 100%;
+	text-align: center;
 }
 
 .jumbotron h1 {
 	color: #fff;
 	text-align: center;
-	marker-bottom: 30px;
 	letter-spacing: -1px ; 
 	font-weight: bold;
 }
