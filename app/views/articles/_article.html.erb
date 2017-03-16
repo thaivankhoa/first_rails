@@ -11,7 +11,7 @@
 					</div>	
 					
 					<div class="article-meta-details">
-						<small> <strong>Create by : </strong><%= article.user.username if article.user %>,
+						<small> <strong>Create by : </strong><%= link_to(article.user.username , user_path(article.user))if article.user %>,
 							<%= time_ago_in_words(article.created_at)%> ago,
 							<strong>Last updated : </strong> <%= time_ago_in_words(article.updated_at) %> ago.
 						</small>
