@@ -18,6 +18,6 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
   #resources :user
 
-  resources :categories, except: [:destroy]
+  resources :categories
 
 end
